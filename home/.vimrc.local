@@ -1,0 +1,9 @@
+"Add here your custom options for vim, puppet will not override them
+
+if has("unix")
+	set guifont=Inconsolata\ 14
+else
+	set guifont=Consolas:h12
+endif
+
+silent! colorscheme monokai

@@ -112,3 +112,9 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# check for updates not committed
+[ -d ~/.homesick ] && homeshick --quiet refresh
+
+
+
