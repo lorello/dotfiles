@@ -114,7 +114,7 @@ if ! shopt -oq posix; then
 fi
 
 # check for updates not committed
-[ -d ~/.homesick ] && homeshick --quiet refresh
+# [ -d ~/.homesick ] && homeshick --quiet refresh
 
 
 
